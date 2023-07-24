@@ -1,0 +1,109 @@
+.button {
+    height:60px;width:200px;color:white;display:flex;
+    background-color: #0066f5 ;
+    text-align: center;
+    justify-content: center;
+    transition-duration: 0.4s;
+    align-items: center;
+    border: white;
+  }
+  .banners{
+    position: absolute;
+    top: 120%;
+    width: 100%;
+    background-color: #0066f5;
+    height: 380px;
+    color: white;
+  }
+  .banners p{
+    position: relative;
+    top: 35px;
+    left: 200px;
+  }
+  .banners button{
+    height:60px;width:200px;color:white;display:flex;
+    background-color: #0066f5 ;
+    text-align: center;
+    justify-content: center;
+    transition-duration: 0.4s;
+    align-items: center;
+    border: 2px solid white;
+    font-size: 1.5rem;
+    display: inline-flex;
+  }
+  .banners a{
+    display: inline-flex;
+    border: 40px solid #0066f5;
+    color: white;
+    font-size: 1.1rem;
+  }
+  .imgdetail{
+    display: none;
+  }
+  .writeable h1{
+    font-size: 3rem;
+  }
+  .banners button:hover{
+    background-color: white; /* Green */
+    color: #0066f5;
+  }
+  .button:hover {
+    background-color: white; /* Green */
+    color: #0066f5;
+  }
+
+  
+  @media screen and (max-width: 769px){
+   .writeable h3{
+        font-size: 0.6rem;
+    }
+    .writeable h1{
+        font-size: 1.2rem;
+    }
+    .writeable{
+        display: none;
+    }
+    .imgdetail{
+        display: block;
+        margin-left: 10%;
+    }
+    .button{
+        height:30px;width:100px;color:white;display:flex;
+        background-color: #0066f5 ;
+        text-align: center;
+        justify-content: center;
+        transition-duration: 0.4s;
+        align-items: center;
+        border: white;
+        font-size: 0.6rem;
+        margin-bottom: 10px;
+    }
+     .banners{
+        position: relative;
+        top: 0%;
+        height: 500px;
+        /* overflow-y: auto; */
+    }
+    .banners p{
+        position: absolute;
+        left: 30px;
+
+    }
+    .banners button{
+        width: 100%;
+        position: absolute;
+        left: -20px;
+    }
+    .banners a{
+        
+        position: relative;       
+        top: 60px;
+        left:30%;
+        border: 2px solid #0066f5 ;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        padding: 15px;
+    }
+
+  }

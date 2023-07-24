@@ -1,0 +1,98 @@
+.foot{
+    position: absolute;
+    height: 100vh;
+    top: 1052px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    
+}
+.foot h1{
+    position: relative;
+    top: 12%;
+    left: 10%;
+    font-size: 3rem;
+    display: inline-flex;
+}
+.unorderedFirst{
+    display: inline-flex;
+    position: absolute;
+    top: 12%;
+    left: 28%;
+    list-style: none;
+    font-size: 1.1rem; 
+       
+}
+.unorderedSec{
+    display: inline-flex;
+    position: absolute;
+    top: 19%;
+    left: 58%;
+    list-style: none;
+    font-size: 1.1rem; 
+}
+.foot li{
+    margin-right: 18px;
+}
+.copyright{
+    position: relative;
+    top: 65%;
+    left: 2%;
+    font-size: 0.85rem;
+    
+}
+.follow{
+    position: relative;
+    top: 60%;
+    left: 42%;
+    font-size: 1.5rem;
+}
+.handles{
+    position: relative;
+    top: 56%;
+    left: 75%;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 769px) {
+    .foot{       
+    position: relative;
+    top: 0%;
+    height: 150vh;
+    }   
+    .unorderedFirst{
+        position: absolute;
+        top: 30% ;
+        left: 2%;
+        display: table-column;
+        margin-bottom: 100px;
+    } 
+    .unorderedFirst li{
+        margin-bottom: 9px;
+    }
+    .unorderedSec{
+        position: absolute;
+        top: 52.5% ;
+        left: 2%;
+        display: table-column;
+        margin-bottom: 100px;
+    }
+    .unorderedSec li{
+        margin-bottom: 9px;
+    }
+    .copyright{
+        position: absolute;
+        left: 10%;
+        top: 94%;
+    }
+    .follow{
+        position: absolute;
+        left: 10%;
+        top: 80%;
+    }
+    .handles{
+        position: absolute;
+        left: 10%;
+        top: 85%;
+    }
+}
